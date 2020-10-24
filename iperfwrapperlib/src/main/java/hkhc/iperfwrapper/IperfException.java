@@ -1,7 +1,5 @@
 package hkhc.iperfwrapper;
 
-import android.os.Build;
-
 /**
  * Created by herman on 6/3/2017.
  */
@@ -23,4 +21,7 @@ public class IperfException extends Exception {
         super(cause);
     }
 
+    public IperfException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
 }
