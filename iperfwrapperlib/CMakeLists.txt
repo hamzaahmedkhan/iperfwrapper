@@ -11,7 +11,7 @@ include_directories(iperf/src)
 
 # generate src/iperf_config.h
 #configure_file(${CMAKE_SOURCE_DIR}/src/main/assets/iperf_config.h.in ${CMAKE_BINARY_DIR}/src/iperf_config.h)
-configure_file(${IPERF_SRC}/src/iperf_config.h.in ${CMAKE_BINARY_DIR}/iperf/iperf_config.h)
+#configure_file(${IPERF_SRC}/src/iperf_config.h.in ${CMAKE_BINARY_DIR}/src/iperf_config.h)
 
 
 
