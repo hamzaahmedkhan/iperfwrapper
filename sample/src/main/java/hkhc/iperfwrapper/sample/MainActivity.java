@@ -1,20 +1,17 @@
 package hkhc.iperfwrapper.sample;
 
-import android.os.Environment;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
 
 import hkhc.iperfwrapper.AndroidDefaults;
-import hkhc.iperfwrapper.HelloJni;
 import hkhc.iperfwrapper.Iperf3;
 import hkhc.iperfwrapper.IperfException;
 import hkhc.iperfwrapper.R;
@@ -43,18 +40,16 @@ public class MainActivity extends AppCompatActivity {
 
                         try {
 
-                            perf3 = new Iperf3();
-                            perf3
-                                    .newTest()
+                            perf3 = new Iperf3().newTest()
                                     .logError()
                                     .defaults(new AndroidDefaults(MainActivity.this))
                                     .testRole(Iperf3.ROLE_CLIENT)
                                     .hostname("37.120.148.158")
                                     .port(5201)
                                     .durationInSeconds(5)
-//                                    .numberOfStreams(10)
+                                    .numberOfStreams(10)
                                     .reverse(true)
-                                    .logfile(MainActivity.this.getCacheDir() +"/output.txt")
+                                    .logfile(MainActivity.this.getCacheDir() + "/output.txt")
                                     .outputJson(true)
                                     .runClient();
 

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hkhc-iperfwrapper.iml" filepath="$PROJECT_DIR$/hkhc-iperfwrapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iperfwrapper.iml" filepath="$PROJECT_DIR$/iperfwrapper.iml" group="iperfwrapper" />
-      <module fileurl="file://$PROJECT_DIR$/iperfwrapperlib/iperfwrapper-iperfwrapperlib.iml" filepath="$PROJECT_DIR$/iperfwrapperlib/iperfwrapper-iperfwrapperlib.iml" group="iperfwrapper/iperfwrapperlib" />
-      <module fileurl="file://$PROJECT_DIR$/sample/iperfwrapper-sample.iml" filepath="$PROJECT_DIR$/sample/iperfwrapper-sample.iml" group="iperfwrapper/sample" />
-      <module fileurl="file://$PROJECT_DIR$/iperfwrapperlib/iperfwrapperlib.iml" filepath="$PROJECT_DIR$/iperfwrapperlib/iperfwrapperlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iperfwrapper.iml" filepath="$PROJECT_DIR$/iperfwrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iperfwrapperlib/iperfwrapper.iperfwrapperlib.iml" filepath="$PROJECT_DIR$/.idea/modules/iperfwrapperlib/iperfwrapper.iperfwrapperlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/iperfwrapper.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/iperfwrapper.sample.iml" />
     </modules>
   </component>
 </project>
