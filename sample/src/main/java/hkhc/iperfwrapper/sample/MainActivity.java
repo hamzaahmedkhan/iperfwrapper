@@ -1,9 +1,7 @@
 package hkhc.iperfwrapper.sample;
 
 import android.os.Handler;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b = (Button) findViewById(R.id.button);
-        new File(MainActivity.this.getCacheDir() + "/output.txt").delete();
+        Button b = (Button)findViewById(R.id.button);
+        new File(MainActivity.this.getCacheDir()+"/output.txt").delete();
 
-//        RunTimePermissions.verifyStoragePermissions(this);
+        RunTimePermissions.verifyStoragePermissions(this);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
                                     .logError()
                                     .defaults(new AndroidDefaults(MainActivity.this))
                                     .testRole(Iperf3.ROLE_CLIENT)
-                                    .hostname("206.189.110.112")
+                                    .hostname("37.120.148.158")
                                     .port(5201)
                                     .durationInSeconds(5)
-                                    .numberOfStreams(30)
+                                    .numberOfStreams(10)
                                     .reverse(true)
                                     .logfile(MainActivity.this.getCacheDir() + "/output.txt")
                                     .outputJson(true)
@@ -60,25 +58,37 @@ public class MainActivity extends AppCompatActivity {
                                 public void run() {
 
                                     Log.e("TEST", "RESPONSE: " + MainActivity.this.getCacheDir() + "/output.txt");
-                                    TextView tv = (TextView) findViewById(R.id.editResult);
+                                    TextView tv = (TextView)findViewById(R.id.editResult);
                                     try {
                                         String result = FileUtils.readFileToString(MainActivity.this.getCacheDir() + "/output.txt");
                                         tv.setText(result);
-                                    } catch (IOException e) {
+                                    }
+                                    catch (IOException e) {
                                         e.printStackTrace();
                                     }
                                 }
                             });
 
 
-                        } catch (IperfException e) {
+                        }
+                        catch (IperfException e) {
                             e.printStackTrace();
-                        } finally {
+                        }
+                        finally {
                             perf3.freeTest();
                         }
+
+//                        HelloJni h = new HelloJni();
+//                        final String msg = h.stringFromJNI();
+//                        handler.post(new Runnable() {
+//                            public void run() {
+//                                Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
+//                            }
+//                        });
+
+
                     }
                 }.start();
-
             }
         });
     }
