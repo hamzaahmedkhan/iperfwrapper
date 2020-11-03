@@ -227,7 +227,7 @@ iperf_handle_message_client(struct iperf_test *test)
     int32_t err;
 
     /*!!! Why is this read() and not Nread()? */
-    if ((rval = Nread(test->ctrl_sck, (char*) &test->state, sizeof(signed char), 0)) <= 0) {
+    if ((rval = read(test->ctrl_sck, (char*) &test->state, sizeof(signed char))) <= 0) {
         __android_log_print(ANDROID_LOG_DEBUG, "IPERF", "iperf_handle_message_client, rval %ld", (long)rval);
 
         if (rval == 0) {
