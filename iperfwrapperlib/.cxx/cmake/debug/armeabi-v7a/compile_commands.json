@@ -1,0 +1,103 @@
+[
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/cjson.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/cjson.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/cjson.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_api.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_api.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_api.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_error.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_error.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_error.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_client_api.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_client_api.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_client_api.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_locale.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_locale.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_locale.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_server_api.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_server_api.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_server_api.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_tcp.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_tcp.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_tcp.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_udp.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_udp.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_udp.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_sctp.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_sctp.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_sctp.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/iperf_util.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_util.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_util.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/net.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/net.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/net.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/tcp_info.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/tcp_info.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/tcp_info.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/tcp_window_size.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/tcp_window_size.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/tcp_window_size.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/timer.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/timer.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/timer.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diperf_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf/src/units.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/units.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/units.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Djni_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/jni.dir/src/main/cpp/hello.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/src/main/cpp/hello.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/src/main/cpp/hello.c"
+},
+
+{
+  "directory": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Djni_EXPORTS -I../../../../iperf/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/jni.dir/src/main/cpp/test_run.c.o   -c /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/src/main/cpp/test_run.c",
+  "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/src/main/cpp/test_run.c"
+}
+]

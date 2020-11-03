@@ -1,0 +1,36 @@
+ninja: Entering directory `/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/x86'
+[1/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_locale.c.o
+[2/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_client_api.c.o
+[3/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_error.c.o
+[4/19] Building C object CMakeFiles/iperf.dir/iperf/src/cjson.c.o
+[5/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_sctp.c.o
+[6/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_tcp.c.o
+[7/19] Building C object CMakeFiles/iperf.dir/iperf/src/tcp_window_size.c.o
+[8/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_server_api.c.o
+[9/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_util.c.o
+[10/19] Building C object CMakeFiles/iperf.dir/iperf/src/net.c.o
+[11/19] Building C object CMakeFiles/iperf.dir/iperf/src/timer.c.o
+[12/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_udp.c.o
+../../../../iperf/src/iperf_udp.c:107:99: warning: format specifies type 'size_t' (aka 'unsigned int') but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+        iperf_err(sp->test, "OUT OF ORDER - incoming packet = %zu and received packet = %d AND SP = %d", pcount, sp->packet_count, sp->socket);
+                                                              ~~~                                        ^~~~~~
+                                                              %llu
+1 warning generated.
+[13/19] Building C object CMakeFiles/iperf.dir/iperf/src/tcp_info.c.o
+[14/19] Building C object CMakeFiles/iperf.dir/iperf/src/units.c.o
+[15/19] Building C object CMakeFiles/iperf.dir/iperf/src/iperf_api.c.o
+[16/19] Building C object CMakeFiles/jni.dir/src/main/cpp/hello.c.o
+[17/19] Building C object CMakeFiles/jni.dir/src/main/cpp/test_run.c.o
+../../../../src/main/cpp/test_run.c:43:85: warning: format specifies type 'long long' but the argument has type 'char' [-Wformat]
+    __android_log_print(ANDROID_LOG_DEBUG, "IPERF", "set role %c %lld", (char)role, 'c');
+                                                                 ~~~~               ^~~
+                                                                 %hhd
+../../../../src/main/cpp/test_run.c:178:32: warning: incompatible integer to pointer conversion passing 'jlong' (aka 'long long') to parameter of type 'struct iperf_test *' [-Wint-conversion]
+    iperf_set_test_json_output(ref, (int)useJson);
+                               ^~~
+../../../../src/main/cpp/../../../iperf/src/iperf_api.h:122:53: note: passing argument to parameter 'ipt' here
+void    iperf_set_test_json_output( struct iperf_test* ipt, int json_output );
+                                                       ^
+2 warnings generated.
+[18/19] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/libiperf.so
+[19/19] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/libjni.so

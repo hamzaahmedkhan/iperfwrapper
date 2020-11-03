@@ -1,0 +1,4 @@
+/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/iperf.dir
+/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/jni.dir

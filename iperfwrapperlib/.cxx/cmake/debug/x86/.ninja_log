@@ -1,0 +1,20 @@
+# ninja log v5
+18	90	1604389264	CMakeFiles/iperf.dir/iperf/src/iperf_locale.c.o	a8c31b62f7c117d9
+12	143	1604389264	CMakeFiles/iperf.dir/iperf/src/iperf_client_api.c.o	ed9dd75879a1c36f
+5	179	1604389264	CMakeFiles/iperf.dir/iperf/src/iperf_error.c.o	1ed58a5e3ffdd22f
+0	195	1604389265	CMakeFiles/iperf.dir/iperf/src/cjson.c.o	f772d5920d3c433f
+70	241	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_sctp.c.o	80d875d517a419ef
+44	255	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_tcp.c.o	f5d887e7c581abb1
+179	272	1604389265	CMakeFiles/iperf.dir/iperf/src/tcp_window_size.c.o	9d0e080c880de1ef
+32	288	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_server_api.c.o	343d32235326c1ba
+77	289	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_util.c.o	3df9e8ddb566f5ee
+90	289	1604389265	CMakeFiles/iperf.dir/iperf/src/net.c.o	48b3b83935b23811
+195	289	1604389265	CMakeFiles/iperf.dir/iperf/src/timer.c.o	f44671acb0155200
+61	294	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_udp.c.o	8b62a17d4145653a
+143	301	1604389265	CMakeFiles/iperf.dir/iperf/src/tcp_info.c.o	85c2bebb0ee4b0a8
+241	325	1604389265	CMakeFiles/iperf.dir/iperf/src/units.c.o	aa3ec75b64ca0005
+4	329	1604389265	CMakeFiles/iperf.dir/iperf/src/iperf_api.c.o	4cf7efe19f3ef4ca
+255	334	1604389265	CMakeFiles/jni.dir/src/main/cpp/hello.c.o	6d2543ea534c542a
+272	348	1604389265	CMakeFiles/jni.dir/src/main/cpp/test_run.c.o	1849b15de52f11e1
+329	353	1604389265	../../../../build/intermediates/cmake/debug/obj/x86/libiperf.so	ab01c54124f06d2
+353	365	1604389265	../../../../build/intermediates/cmake/debug/obj/x86/libjni.so	c0165e6a59472ee9
