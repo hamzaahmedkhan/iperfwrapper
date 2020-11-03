@@ -44,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
                                     .logError()
                                     .defaults(new AndroidDefaults(MainActivity.this))
                                     .testRole(Iperf3.ROLE_CLIENT)
-                                    .hostname("37.120.148.158")
+                                    .hostname("62.210.18.40") // Change ip with the server ip you want to test
                                     .port(5201)
                                     .durationInSeconds(5)
-                                    .numberOfStreams(10)
+                                    .numberOfStreams(30)
                                     .reverse(true)
                                     .logfile(MainActivity.this.getCacheDir() + "/output.txt")
                                     .outputJson(true)
