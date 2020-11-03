@@ -43,18 +43,6 @@
   },
   {
     "level": "INFO",
-    "message": "- a dependent build file changed",
-    "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "tag": "debug|x86_64"
-  },
-  {
-    "level": "INFO",
-    "message": "  - /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "tag": "debug|x86_64"
-  },
-  {
-    "level": "INFO",
     "message": "removing stale contents from \u0027/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/x86_64\u0027",
     "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
     "tag": "debug|x86_64"

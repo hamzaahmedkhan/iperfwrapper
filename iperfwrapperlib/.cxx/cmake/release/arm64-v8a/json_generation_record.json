@@ -43,18 +43,6 @@
   },
   {
     "level": "INFO",
-    "message": "- a dependent build file changed",
-    "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "tag": "release|arm64-v8a"
-  },
-  {
-    "level": "INFO",
-    "message": "  - /home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "tag": "release|arm64-v8a"
-  },
-  {
-    "level": "INFO",
     "message": "removing stale contents from \u0027/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/release/arm64-v8a\u0027",
     "file": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
     "tag": "release|arm64-v8a"
