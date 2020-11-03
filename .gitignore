@@ -6,7 +6,7 @@
 .DS_Store
 /build
 /captures
-.externalNativeBuild
+#.externalNativeBuild
 
 # Project exclude paths
 #/iperfwrapperlib/.cxx/

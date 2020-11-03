@@ -1,0 +1,8 @@
+Executable : /home/hamza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/debug/arm64-v8a
+iperf
+jni
+jvmArgs : 
+

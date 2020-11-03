@@ -26,7 +26,7 @@
 #define HAVE_SENDFILE 1
 
 /* Have SO_MAX_PACING_RATE sockopt. */
-#cmakedefine HAVE_SO_MAX_PACING_RATE  @HAVE_SO_MAX_PACING_RATE@
+/* #undef HAVE_SO_MAX_PACING_RATE */
 
 #define HAVE_STDINT_H 1
 

@@ -7,7 +7,8 @@
   "buildFiles": [
     "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
     "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
-    "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+    "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/iperf_config.h.in"
   ],
   "cleanCommands": [
     "/home/hamza/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/.cxx/cmake/release/x86_64\" clean"
