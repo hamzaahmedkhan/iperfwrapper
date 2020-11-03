@@ -164,7 +164,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/home/hamza/AndroidStudioProjects/iperfwrapper/.cxx",
         "cxxFolder": "/home/hamza/AndroidStudioProjects/iperfwrapper/.cxx",
-        "ideBuildTargetAbi": "x86",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -187,7 +186,10 @@
     "objFolder": "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "X86"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ]
   }
 }
