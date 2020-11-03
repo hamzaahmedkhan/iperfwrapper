@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/version.h.in",
     "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
     "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
     "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",

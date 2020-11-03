@@ -5,6 +5,7 @@
     "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hamza/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Djni_EXPORTS -I../../../../iperf/src -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
+    "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/iperf/src/version.h.in",
     "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
     "/home/hamza/AndroidStudioProjects/iperfwrapper/iperfwrapperlib/CMakeLists.txt",
     "/home/hamza/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
